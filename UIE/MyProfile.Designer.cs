@@ -47,10 +47,14 @@
             this.panel7 = new System.Windows.Forms.Panel();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel5.SuspendLayout();
             this.panel6.SuspendLayout();
+            this.panel7.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -130,7 +134,7 @@
             this.panel5.Controls.Add(this.label3);
             this.panel5.Location = new System.Drawing.Point(18, 135);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(529, 87);
+            this.panel5.Size = new System.Drawing.Size(540, 87);
             this.panel5.TabIndex = 4;
             // 
             // label3
@@ -186,10 +190,10 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Trebuchet MS", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Font = new System.Drawing.Font("Trebuchet MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.Location = new System.Drawing.Point(387, 18);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(94, 16);
+            this.label8.Size = new System.Drawing.Size(102, 16);
             this.label8.TabIndex = 5;
             this.label8.Text = "Email veranderen";
             this.label8.Click += new System.EventHandler(this.label8_Click);
@@ -197,27 +201,30 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Trebuchet MS", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Font = new System.Drawing.Font("Trebuchet MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.Location = new System.Drawing.Point(387, 47);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(132, 16);
+            this.label9.Size = new System.Drawing.Size(146, 16);
             this.label9.TabIndex = 6;
             this.label9.Text = "Wachtwoord veranderen";
             // 
             // panel6
             // 
+            this.panel6.Controls.Add(this.label12);
             this.panel6.Controls.Add(this.label11);
             this.panel6.Controls.Add(this.label10);
             this.panel6.Location = new System.Drawing.Point(18, 239);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(529, 87);
+            this.panel6.Size = new System.Drawing.Size(540, 87);
             this.panel6.TabIndex = 5;
             // 
             // panel7
             // 
+            this.panel7.Controls.Add(this.label14);
+            this.panel7.Controls.Add(this.label13);
             this.panel7.Location = new System.Drawing.Point(18, 361);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(529, 75);
+            this.panel7.Size = new System.Drawing.Size(540, 75);
             this.panel7.TabIndex = 6;
             // 
             // label10
@@ -233,12 +240,42 @@
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Trebuchet MS", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(113, 16);
+            this.label11.Font = new System.Drawing.Font("Trebuchet MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Location = new System.Drawing.Point(144, 16);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(42, 16);
+            this.label11.Size = new System.Drawing.Size(147, 16);
             this.label11.TabIndex = 1;
-            this.label11.Text = "label11";
+            this.label11.Text = "Instellingen voor afspelen";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Trebuchet MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Location = new System.Drawing.Point(144, 48);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(112, 16);
+            this.label12.TabIndex = 2;
+            this.label12.Text = "Ondertitelingopties";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Trebuchet MS", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Location = new System.Drawing.Point(16, 24);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(105, 16);
+            this.label13.TabIndex = 0;
+            this.label13.Text = "Details Abonnement";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Trebuchet MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.Location = new System.Drawing.Point(164, 24);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(128, 16);
+            this.label14.TabIndex = 1;
+            this.label14.Text = "Abonnement Wijzigen";
             // 
             // MyProfile
             // 
@@ -261,6 +298,8 @@
             this.panel5.PerformLayout();
             this.panel6.ResumeLayout(false);
             this.panel6.PerformLayout();
+            this.panel7.ResumeLayout(false);
+            this.panel7.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -287,5 +326,8 @@
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Panel panel7;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label label13;
     }
 }
