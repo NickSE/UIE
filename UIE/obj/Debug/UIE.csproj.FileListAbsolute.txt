@@ -1,0 +1,12 @@
+c:\users\nick\documents\visual studio 2013\Projects\UIE\UIE\bin\Debug\UIE.exe.config
+c:\users\nick\documents\visual studio 2013\Projects\UIE\UIE\bin\Debug\UIE.exe
+c:\users\nick\documents\visual studio 2013\Projects\UIE\UIE\bin\Debug\UIE.pdb
+c:\users\nick\documents\visual studio 2013\Projects\UIE\UIE\obj\Debug\UIE.csprojResolveAssemblyReference.cache
+c:\users\nick\documents\visual studio 2013\Projects\UIE\UIE\obj\Debug\UIE.Form1.resources
+c:\users\nick\documents\visual studio 2013\Projects\UIE\UIE\obj\Debug\UIE.Properties.Resources.resources
+c:\users\nick\documents\visual studio 2013\Projects\UIE\UIE\obj\Debug\UIE.csproj.GenerateResource.Cache
+c:\users\nick\documents\visual studio 2013\Projects\UIE\UIE\obj\Debug\UIE.exe
+c:\users\nick\documents\visual studio 2013\Projects\UIE\UIE\obj\Debug\UIE.pdb
+C:\Users\Nick\Source\Repos\UIE\UIE\bin\Debug\UIE.exe.config
+C:\Users\Nick\Source\Repos\UIE\UIE\obj\Debug\UIE.exe
+C:\Users\Nick\Source\Repos\UIE\UIE\obj\Debug\UIE.pdb
